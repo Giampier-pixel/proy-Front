@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const AuthApp = () => {
   // URL del servidor Java Spring Boot que maneja la autenticación JWT
-  const [baseURL] = useState('http://localhost:8080');
+  const [baseURL] = useState('https://back-2-wgbn.onrender.com');
   const [isLoginMode, setIsLoginMode] = useState(true);
   const [loading, setLoading] = useState(false);
   const [alerts, setAlerts] = useState([]);
